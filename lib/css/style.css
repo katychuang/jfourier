@@ -21,7 +21,12 @@ body {
     top: 0;
     left: 0;
     padding: 10px;
-    background-color: #EAEDF1;
+    background-color: #EDF0F1; /*#EAEDF1;*/
+}
+
+#MathInput img{
+    width: calc(100% - 0px);
+    overflow:hidden;
 }
 
 h1, h2, h3, h4, h5{
@@ -33,16 +38,10 @@ hr {
     border-bottom:0;
 }
 
-#MathInput .header h1{
-    font-family: 'avenir', helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    color: #767b8d;
-    text-align: center;
-}
-#MathInput .header h1 small{
-    font-size: 14px;
-    color: #767b8d;
+#MathInput,
+#MathInput .header {
+    margin: 0;
+    padding: 0;
 }
 
 #MathOutput{
